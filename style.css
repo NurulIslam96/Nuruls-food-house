@@ -17,7 +17,7 @@ body{
 }*/
 
 h1{
-    font-size: 60px;
+    font-size: 40px;
 }
 
 p{
@@ -63,14 +63,14 @@ p{
 
 .background2{
     background-image: url(images/female/Group\ 8425.png),url(images/shapes/Frame\ 58.jpg);
-    background-size: 800px,cover;
+    background-size: 500px,cover;
     background-repeat: no-repeat;
     margin: 0;
 }
 
 .lorem{
     padding-left: 65%;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
 }
 
 .contact{
@@ -79,7 +79,7 @@ p{
     padding: 30px 60px;
     background-image: linear-gradient(red,rgb(245, 11, 120));
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 60px;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
 }
@@ -96,9 +96,8 @@ p{
 .flexible{
     display: flex;
     gap: 5%;
-    padding-left: 560px;
-    padding-top: 70px;
-    margin-bottom: 100px;
+    margin-left: 250px;
+    margin-bottom: 80px;
 }
 
 .recipe-list{
@@ -122,17 +121,15 @@ h2{
 
 .subscribers{
     display: flex;
-    box-shadow: 0 2px 20px gray;
-    flex-wrap:nowrap;
-    justify-content: space-evenly;
-    align-items: center;
+    box-shadow: 0 2px 15px gray;
     border-radius: 25px;
-    margin: 0 500px 80px;
-    height: 200px;
-
+    margin: 0 300px;
+    padding-left: 95px;
+    padding-bottom: 0;
+    margin-bottom: 50px;
 }
 .hi{
-    margin: 10px 0 0 0;
+    margin: 20px 0;
     color: black;
     border: 10px solid transparent;
 }
@@ -142,7 +139,7 @@ h2{
 }
 
 .sm{
-    margin:0 20px;
+    font-size: 16px;
     color: black;
 }
 
